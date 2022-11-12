@@ -1,0 +1,65 @@
+header {
+    text-align: center;
+    border: 1px solid;
+    padding: 15px;
+    grid-area: head;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+
+.product {
+    grid-area: products;
+    border: 1px solid;
+    padding: 15px;
+}
+
+ .tour{
+        grid-area: tour;
+        border: 1px solid;
+        padding: 15px;
+}
+
+.contact{
+        grid-area: contact;
+        border: 1px solid;
+        padding: 15px;
+        background-color: purple;
+    
+
+ }
+
+ .top {
+    display: grid;
+    grid-template-areas: 
+    'head head head head'
+    'disco products tour contact';
+}
+
+.disco {
+    grid-area: disco ;
+    border: 1px solid;
+    padding: 15px;
+}
+
+a {
+    color: inherit;
+}
+
+div {
+    margin-left: auto;
+    margin-right: auto;
+    width : 20%;
+    background-color: rgb(9, 214, 149);
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border: 1px solid;
+    border-radius: 20px;
+    font-size: large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-seri;
+}

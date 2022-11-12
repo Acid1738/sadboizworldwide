@@ -1,0 +1,69 @@
+header {
+    text-align: center;
+    border: 1px solid;
+    padding: 15px;
+    grid-area: head;
+}
+
+a { color: inherit;}
+body{
+    background-color: black;
+    color: white;
+}
+
+.top {
+    display: grid;
+    grid-template-areas: 
+    'head head head head'
+    'disco products tour contact';
+}
+
+.disco {
+    grid-area: disco ;
+    border: 1px solid;
+    padding: 15px;
+    background-color: purple;
+}
+
+.product {
+grid-area: products;
+border: 1px solid;
+padding: 15px;
+}
+
+.tour{
+    grid-area: tour;
+    border: 1px solid;
+    padding: 15px;
+}
+
+.contact{
+    grid-area: contact;
+    border: 1px solid;
+    padding: 15px;
+}
+
+#middle {
+    display: grid;
+    grid-template-areas: 'album space song ';
+
+    
+}
+
+.songlist {
+    padding-left: 30%;
+
+}
+
+.albums {
+    padding-left: 30px;
+    grid-area: album;
+}
+
+div {
+    border:1px solid;
+    border-radius:8px ;
+
+
+}
+
