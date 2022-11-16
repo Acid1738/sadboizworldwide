@@ -217,8 +217,8 @@ audio {
     
     .intro {
         position: absolute;
-        top: 11%;
-        left: 50%;
+        top: 1%;
+        left: 45%;
         font-size: 80%;
         font-family:'Coiny';
     }
