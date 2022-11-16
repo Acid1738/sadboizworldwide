@@ -87,7 +87,7 @@ button {
     position: absolute;
     top: 30%;
     left: 50%;
-    font-size: 180%;
+    font-size: 150%;
     font-family:'Coiny';
 }
 
@@ -217,9 +217,9 @@ audio {
     
     .intro {
         position: absolute;
-        top: 16%;
+        top: 11%;
         left: 50%;
-        font-size: 30%;
+        font-size: 80%;
         font-family:'Coiny';
     }
     
