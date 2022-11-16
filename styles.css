@@ -1,3 +1,9 @@
+/* for laptop  */
+/* for laptop  */
+/* for laptop  */
+
+@media screen and (min-width: 900px) {
+
 header {
     text-align: center;
     border: 1px solid;
@@ -80,14 +86,15 @@ button {
 #middle {
     display: grid;
     grid-template-areas: 'ablbums songs';
-    padding-left: 20%;
+    padding-left: 10%;
+    font-size: x-large;
 }
 
 .intro {
     position: absolute;
     top: 30%;
     left: 50%;
-    font-size: 150%;
+    font-size: 200%;
     font-family:'Coiny';
 }
 
@@ -101,9 +108,8 @@ h2 {
     border-radius: 15%;
 }
 
-.song1 {
-    display:flex;
-    align-items: center;    
+.song1 { 
+    padding-right: 20%;  
 }
 
 audio {
@@ -112,13 +118,25 @@ audio {
 }
 
 .songlist {
-    padding-right: 6%;
+    padding-right: 5%;
+    font-size: x-large;
+    padding-right: 8%;
 }
 
-.single {
-    border-bottom: 2px solid;
-    padding-bottom: 2%;
+button {
+    width: 30%;
 }
+
+
+}
+
+.jst {
+    position: absolute;
+    right: 50%;
+    float: inline-end;
+    font-size: 200%;
+}
+
 
 
 
