@@ -147,6 +147,7 @@
             grid-template-areas: 
             'head head head head'
             'disco products tour contact';
+              font-size: small;
         }
         
         .disco {
@@ -168,7 +169,7 @@
             margin-top: 20px;
             border: 1px solid;
             border-radius: 20px;
-            font-size: large;
+            font-size: small;
             font-weight: bold;
             font-family: Arial, Helvetica, sans-seri;
         }
