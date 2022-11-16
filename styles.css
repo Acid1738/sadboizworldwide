@@ -9,6 +9,8 @@ a { color: inherit;}
 body{
     background-color: black;
     color: white;
+
+    
 }
 
 .top {
@@ -22,7 +24,7 @@ body{
     grid-area: disco ;
     border: 1px solid;
     padding: 15px;
-    background-color: purple;
+    background-color:  rgba(255,0,237,1);
 }
 
 .product {
@@ -43,27 +45,229 @@ padding: 15px;
     padding: 15px;
 }
 
+#sthombe {
+    border-radius: 50%;
+    width: 30%;
+}
+
+#profile {
+    padding: 1%;
+    top: 0;
+}
+
+button {
+    border-radius: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation: glowing 1300ms infinite;
+
+}
+
+@keyframes glowing {
+    0% {
+      background-color: #2ba805;
+      box-shadow: 0 0 5px #2ba805;
+    }
+    50% {
+      background-color: #49e819;
+      box-shadow: 0 0 20px #49e819;
+    }
+    100% {
+      background-color: #2ba805;
+      box-shadow: 0 0 5px #2ba805;
+    }
+}
+
 #middle {
     display: grid;
-    grid-template-areas: 'album space song ';
+    grid-template-areas: 'ablbums songs';
+    padding-left: 20%;
+}
 
-    
+.intro {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    font-size: 160%;
+    font-family:'Coiny';
+}
+
+h2 {
+    font-size: 400%;
+}
+
+.al{
+    width: 15%;
+    margin-right: 3%;
+    border-radius: 15%;
+}
+
+.song1 {
+    display:flex;
+    align-items: center;    
+}
+
+audio {
+    position: relative ;
+    bottom: auto;
 }
 
 .songlist {
-    padding-left: 30%;
-
+    padding-right: 6%;
 }
 
-.albums {
-    padding-left: 30px;
-    grid-area: album;
+.single {
+    border-bottom: 2px solid;
+    padding-bottom: 2%;
 }
+
+
+
+
+
+/*for phones*/
+/*for phones*/
+/*for phones*/
+/*for phones*/
+
+@media screen and (max-width: 800px) {
+    
+    header {
+        text-align: center;
+        border: 1px solid;
+        padding: 15px;
+        grid-area: head;
+    }
+    
+    a { color: inherit;}
+    body{
+        background-color: black;
+        color: white;
+    }
+    
+    .top {
+        display: grid;
+        grid-template-areas: 
+        'head head head head'
+        'disco products tour contact';
+    }
+    
+    .disco {
+        grid-area: disco ;
+        border: 1px solid;
+        padding: 15px;
+        background-color:  rgba(255,0,237,1);
+    }
+    
+    .product {
+    grid-area: products;
+    border: 1px solid;
+    padding: 15px;
+    }
+    
+    .tour{
+        grid-area: tour;
+        border: 1px solid;
+        padding: 15px;
+    }
+    
+    .contact{
+        grid-area: contact;
+        border: 1px solid;
+        padding: 15px;
+    }
+    
+    #sthombe {
+        border-radius: 50%;
+        width: 40%;
+    }
+    
+    #profile {
+        padding: 1%;
+        top: 0;
+    }
+    
+    button {
+        border-radius: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        animation: glowing 1300ms infinite;
+    
+    }
+    
+    @keyframes glowing {
+        0% {
+          background-color: #2ba805;
+          box-shadow: 0 0 5px #2ba805;
+        }
+        50% {
+          background-color: #49e819;
+          box-shadow: 0 0 20px #49e819;
+        }
+        100% {
+          background-color: #2ba805;
+          box-shadow: 0 0 5px #2ba805;
+        }
+    }
+    
+    #middle {
+        display: flex;
+        flex-direction: column;
+        padding: 3%;
+        
+    }
+    
+    .intro {
+        position: absolute;
+        top: 16%;
+        left: 50%;
+        font-size: 30%;
+        font-family:'Coiny';
+    }
+    
+    h2 {
+        font-size: 400%;
+    }
+    
+    .al{
+        width: 15%;
+        margin-right: 3%;
+        border-radius: 15%;
+    }
+    
+    .song1 {
+        display:flex;
+        align-items: center; 
+      
+    }
+    
+    audio {
+        position: relative ;
+        bottom: auto;
+    }
+
+    .single {
+        border-bottom: 2px solid;
+        padding-bottom: 2%;
+        
+    }
 
 div {
-    border:1px solid;
-    border-radius:8px ;
-
-
+    position: relative;
 }
 
+    .ey {
+        position: absolute;
+        right: 5%;
+        top: -30px;
+        text-align: center;
+        font-size: 200%;
+    }
+
+    .jst {
+        position: absolute;
+        right: 5%;
+        font-size: 200%;
+    }
+
+    
+
+}
